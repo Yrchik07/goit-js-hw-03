@@ -1,5 +1,5 @@
 function slugify(title){
-    x = title.replace(/\s/g,"-");
+   let x = title.replace(/\s/g,"-");
     let y = x.toLowerCase();
     return y;
 }
